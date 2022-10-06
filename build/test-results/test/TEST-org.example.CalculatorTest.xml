@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.CalculatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-10-05T09:25:50" hostname="KOS-NOTEBOOK" time="0.046">
+<testsuite name="org.example.CalculatorTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2022-10-06T05:17:48" hostname="KOS-NOTEBOOK" time="0.077">
   <properties/>
-  <testcase name="div()" classname="org.example.CalculatorTest" time="0.036"/>
-  <testcase name="mul()" classname="org.example.CalculatorTest" time="0.003"/>
-  <testcase name="plus()" classname="org.example.CalculatorTest" time="0.002"/>
-  <testcase name="minus()" classname="org.example.CalculatorTest" time="0.002"/>
+  <testcase name="when2Multiple15ThenResult30()" classname="org.example.CalculatorTest" time="0.041"/>
+  <testcase name="whenInputIncorrectValueThenThrowException()" classname="org.example.CalculatorTest" time="0.003"/>
+  <testcase name="when40Divide2ThenResult20()" classname="org.example.CalculatorTest" time="0.001"/>
+  <testcase name="when200Minus50ThenResult150()" classname="org.example.CalculatorTest" time="0.003"/>
+  <testcase name="when14Divide2ThenResult7()" classname="org.example.CalculatorTest" time="0.001"/>
+  <testcase name="when100Plus50ThenResult150()" classname="org.example.CalculatorTest" time="0.001"/>
+  <testcase name="when25Minus10ThenResult15()" classname="org.example.CalculatorTest" time="0.002"/>
+  <testcase name="when14Divide0ThenThrowException()" classname="org.example.CalculatorTest" time="0.002"/>
+  <testcase name="when75Multiple2ThenResult150()" classname="org.example.CalculatorTest" time="0.001"/>
+  <testcase name="when10Plus5ThenResult15()" classname="org.example.CalculatorTest" time="0.001"/>
+  <testcase name="when10Plus5AsStringThenResult15()" classname="org.example.CalculatorTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
